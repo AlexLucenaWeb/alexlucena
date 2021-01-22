@@ -21,8 +21,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .bg__back {
-    position: absolute;
-    z-index: 1;
+    position: fixed;
+    z-index: -2;
     top: 0;
     right: 0;
     width: 100vw;
@@ -30,8 +30,8 @@ export default {
     background-color: white;
 }
 .bg__front {
-    position: absolute;
-    z-index: 2;
+    position: fixed;
+    z-index: -1;
     top: 50px;
     right: 50px;
     width: calc(100vw - 100px);
@@ -39,7 +39,7 @@ export default {
     background-color: #ff5851;
 }
 .bg__botton{
-    position: absolute;
+    position: fixed;
     z-index: 999;
     bottom: 0;
     right: 0;

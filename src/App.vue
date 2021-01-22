@@ -71,4 +71,12 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+p{
+  font-size: 5rem;
+}
+static-background{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
 </style>
