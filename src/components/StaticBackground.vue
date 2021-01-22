@@ -56,9 +56,11 @@ export default {
     position: absolute;
     top: 0px;
     right: 10px;
+    height: 50px;
 }
 a{
  text-decoration: none;
+ font-size:2rem;
  color: white;
  margin: 0 10px;
 }
