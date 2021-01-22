@@ -3,6 +3,7 @@
   <static-background></static-background>
   <div class="sections__container">
     <bio-section></bio-section>
+    <work-section></work-section>
   </div>
   <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
 </template>
@@ -10,6 +11,7 @@
 <script>
 import StaticBackground from './components/StaticBackground.vue';
 import BioSection from './components/BioSection.vue';
+import WorkSection from './components/WorkSection.vue';
 // import HelloWorld from './components/HelloWorld.vue';
 
 export default {
@@ -17,7 +19,7 @@ export default {
   components: {
     StaticBackground,
     BioSection,
-    // HelloWorld,
+    WorkSection,
   },
 };
 </script>
