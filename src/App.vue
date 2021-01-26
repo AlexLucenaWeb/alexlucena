@@ -29,9 +29,10 @@ export default {
 <style>
 @font-face {
   font-family: jeko;
-  src: url("../public/fonts/Jeko-Extra-Bold.ttf"), url("../public/fonts/Jeko-Regular.ttf");
+  src: url("../public/fonts/Jeko-Extra-Bold.ttf"), url("../public/fonts/Jeko-Regular.ttf"),
+    url("../public/fonts/Jeko-Light.ttf");
 }
-body{
+body {
   margin: 0;
 }
 #app {
@@ -47,7 +48,12 @@ body{
   margin-top: 100px;
   padding: 20px;
 }
-section{
+section {
   min-height: calc(100vh - 150px);
+}
+p {
+  font-size: 2em;
+  text-align: justify;
+  font-weight: lighter;
 }
 </style>
