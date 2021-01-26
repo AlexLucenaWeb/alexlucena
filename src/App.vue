@@ -4,6 +4,7 @@
   <div class="sections__container">
     <bio-section></bio-section>
     <work-section></work-section>
+    <contact-section></contact-section>
   </div>
   <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
 </template>
@@ -12,7 +13,7 @@
 import StaticBackground from './components/StaticBackground.vue';
 import BioSection from './components/BioSection.vue';
 import WorkSection from './components/WorkSection.vue';
-// import HelloWorld from './components/HelloWorld.vue';
+import ContactSection from './components/ContactSection.vue';
 
 export default {
   name: 'App',
@@ -20,6 +21,7 @@ export default {
     StaticBackground,
     BioSection,
     WorkSection,
+    ContactSection,
   },
 };
 </script>
@@ -38,13 +40,12 @@ body{
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 .sections__container {
-  width: calc(100vw - 120px);
+  width: calc(100vw - 157px);
   margin-left: 50px;
   margin-top: 100px;
-  padding: 10px;
+  padding: 20px;
 }
 section{
   min-height: calc(100vh - 150px);

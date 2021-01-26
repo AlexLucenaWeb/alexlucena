@@ -3,7 +3,7 @@
     </div>
     <div class="bg__front">
         <div class="bg__menu">
-            <a class="menu__bio" href="#">Bio</a>
+            <a class="menu__bio" href="#" >Bio</a>
             <a class="memu__work" href="#">Work</a>
             <a class="menu__contact" href="#">Contact</a>
         </div>
@@ -15,6 +15,12 @@
 
 <script>
 export default {
+  methods: {
+    // flip() {
+    //   const biolink = document.getElementById('#bio-link');
+    //   console.log(biolink);
+    // },
+  },
 };
 </script>
 
@@ -33,8 +39,8 @@ export default {
     position: fixed;
     z-index: -1;
     top: 50px;
-    right: 50px;
-    width: calc(100vw - 100px);
+    left: 50px;
+    width: calc(100vw - 117px);
     height: calc(100vh - 100px);
     background-color: #ff5851;
 }

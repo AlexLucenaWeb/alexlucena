@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="bio__container">
-      <p class="bio__bio">
+      <!-- <p class="bio__bio">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum malesuada velit, in
         rhoncus lorem faucibus quis. Maecenas ullamcorper porttitor diam. Class aptent taciti
         sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec id luctus
@@ -18,7 +18,7 @@
         sapien arcu, eget sodales neque ornare sed. Praesent bibendum porttitor eros eget iaculis.
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </p>
-      <img class="bio__img" src="../../public/images/alex-photo.png" alt="Alex Lucena photo" />
+      <img class="bio__img" src="../../public/images/alex-photo.png" alt="Alex Lucena photo" /> -->
     </div>
   </section>
 </template>
