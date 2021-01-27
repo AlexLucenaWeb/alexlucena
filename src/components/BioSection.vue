@@ -6,7 +6,7 @@
         based in <span class="white">Dublin</span>.
         <br>After several years
         working in the education sistem, I decided to move forward and
-        find my place in the web technologies are. I have been working
+        find my place in the web technologies area. I have been working
         to improve my skills and develop my own projects to turn this
         passion into a profesion.
       </p>
