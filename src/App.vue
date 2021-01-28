@@ -2,6 +2,7 @@
   <!-- <h1>HELLO IM ALEX</h1> -->
   <static-background></static-background>
   <div class="sections__container">
+    <animation-section></animation-section>
     <bio-section></bio-section>
     <work-section></work-section>
     <contact-section></contact-section>
@@ -14,6 +15,7 @@ import StaticBackground from './components/StaticBackground.vue';
 import BioSection from './components/BioSection.vue';
 import WorkSection from './components/WorkSection.vue';
 import ContactSection from './components/ContactSection.vue';
+import AnimationSection from './components/AnimationSection.vue';
 
 export default {
   name: 'App',
@@ -22,6 +24,7 @@ export default {
     BioSection,
     WorkSection,
     ContactSection,
+    AnimationSection,
   },
 };
 </script>
@@ -37,23 +40,30 @@ body {
 }
 #app {
   font-family: jeko, sans-serif;
+  /* font-weight: normal; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
 }
 .sections__container {
-  width: calc(100vw - 157px);
+  width: calc(100vw - 117px);
   margin-left: 50px;
-  margin-top: 100px;
-  padding: 20px;
+  margin-top: 50px;
+  padding-bottom: 20px;
 }
 section {
-  min-height: calc(100vh - 150px);
+  min-height: calc(100vh - 100px);
+}
+h2{
+    font-weight: bolder;
+    color: #ffffff;
+    font-size: 5em;
+    margin: 0;
 }
 p {
   font-size: 2em;
-  text-align: justify;
   font-weight: lighter;
+  text-align: justify;
 }
 </style>
